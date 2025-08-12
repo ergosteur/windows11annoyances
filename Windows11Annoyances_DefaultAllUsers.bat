@@ -1,6 +1,8 @@
 @echo off
 setlocal EnableExtensions EnableDelayedExpansion
 title Windows 11 per-user tweaks → Default + ALL existing users
+echo "THIS SCRIPT IS BROKEN DO NOT USE"
+exit /b 1
 
 :: --- Admin check ---
 net session >nul 2>&1
